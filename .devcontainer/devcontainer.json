@@ -1,0 +1,9 @@
+{
+  "name": "RAG System",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers-contrib/features/poetry:1": {}
+  },
+  "postCreateCommand": "pip install -r requirements.txt"
+}
