@@ -5,3 +5,5 @@ transformers
 torch
 gradio
 python-dotenv
+openai>=1.30.0
+tiktoken>=0.6.0 
